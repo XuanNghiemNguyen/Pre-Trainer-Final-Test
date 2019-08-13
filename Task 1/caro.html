@@ -1,0 +1,45 @@
+<html>
+
+<head>
+    <title>Caro Game</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/Caro.css">
+</head>
+
+<body background="images/wooden.jpg">
+    <div>
+        <div class="option">
+            <label for="numWins">Số quân để thắng: </label><br>
+            <input type="range" id="numWins" min="3" max="9" value="3">
+            <label class="y" for="numWins">5</label><br>
+            <label for="size">Kích cỡ bàn cờ: </label><br>
+            <input type="range" id="size" min="3" max="30" value="3">
+            <label class="x" for="size">5</label><br>
+            <br><br>
+            <center>
+                <button type="button" id="start" onclick="play()">START</button>
+                <button type="button" onclick="window.location.reload()">RESET</button>
+            </center>
+            <h2 class="player1"></h2>
+
+        </div>
+
+        <div>
+            <div class="player-frame">
+
+            </div>
+        </div>
+        <div class="board">
+            <table align="center">
+                <tbody>
+                    <td>
+                        <h2>Hãy chọn các thông số và nhấn START</h2>
+                    </td>
+                </tbody>
+            </table>
+            <script type="text/javascript" src="js/Caro.js"></script>
+        </div>
+    </div>
+</body>
+
+</html>

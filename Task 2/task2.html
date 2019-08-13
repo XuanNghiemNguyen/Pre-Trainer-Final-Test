@@ -1,0 +1,36 @@
+<html>
+
+<head>
+    <title>TASK 2</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/task2.css">
+</head>
+
+<body>
+    <div>
+        <div class="option">
+            <label for="numRows">Số dòng: </label><br>
+            <input type="range" id="numRows" min="3" max="100" value="3">
+            <label class="y" for="numRows">5</label><br>
+            <label for="numCols">Số cột: </label><br>
+            <input type="range" id="numCols" min="3" max="30" value="3">
+            <label class="x" for="numCols">5</label><br>
+            <br><br>
+            <center>
+                <button type="button" id="start" onclick="start()">START</button>
+            </center>
+
+        </div>
+        <div class="board">
+            <table id="neSort">
+                <thead class="title">
+                </thead>
+                <tbody class="content">
+                </tbody>
+            </table>
+            <script type="text/javascript" src="js/task2.js"></script>
+        </div>
+    </div>
+</body>
+
+</html>

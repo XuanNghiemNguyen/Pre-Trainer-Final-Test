@@ -1,0 +1,28 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/Snake.css" />
+    <title>Snake Game</title>
+</head>
+
+<body background="images/wooden.jpg">
+    <div class="mode">
+        <h3>Choose Mode: </h3>
+        <input type="radio" name="Mode" checked value="A">Mode A<br>
+        <input type="radio" name="Mode" value="B">Mode B<br><br>&emsp;
+        <button onClick="play()">Play</button>
+    </div>
+    <div class="board">
+        <table class="matrix">
+        </table>
+    </div>
+    <div class="player-frame">
+        <center>
+            <h1 class="updateScore">Score: 0</h1>
+        </center>
+    </div>
+    <script src="js/Snake.js"></script>
+</body>
+
+</html>
